@@ -9,7 +9,7 @@ $("#result").html('Random Result: ' + random_result);
 for(var i=0; i<4; i++){
 random  = Math.floor((Math.random() * 12);
 
-Var crystal = $(“<div>”);
+var crystal = $("<div>");
 crystal.attr({"class" : 'crystal',
 "data-random" : random
 
