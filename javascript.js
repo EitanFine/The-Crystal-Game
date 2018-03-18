@@ -5,23 +5,23 @@ var win;
 
 random_Result = Math.floor((Math.random() * 69) +30);
 
-$(“#result”).html)(‘Random Result: ‘ + random_result);
-fOR (var i=0; i<4; i++){
+$(“#result”).html)('Random Result: ' + random_result);
+for(var i=0; i<4; i++){
 random  = Math.floor((Math.random() * 12);
 
 Var crystal = $(“<div>”);
-crystal.attr({“class” : ‘crystal’,
-“Data-random”: random
+crystal.attr({"class" : 'crystal',
+"data-random" : random
 
 });
 
-$(“.crystals”).append(crystal);
+$(".crystals").append(crystal);
 
 }
 
-$(“.crystals).on(‘click’, function(){
+$(".crystals").on('click', function(){
 
-console.log($(this).attr(‘data-random’)];
+console.log($(this).attr('data-random'));
 }
 
 }
