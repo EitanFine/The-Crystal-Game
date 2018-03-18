@@ -5,7 +5,7 @@ var win;
 
 random_Result = Math.floor((Math.random() * 69) +30);
 
-$(“#result”).html)('Random Result: ' + random_result);
+$("#result").html('Random Result: ' + random_result);
 for(var i=0; i<4; i++){
 random  = Math.floor((Math.random() * 12);
 
